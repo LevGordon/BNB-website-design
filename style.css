@@ -158,6 +158,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header ul li {
@@ -170,12 +171,13 @@ main form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .location, .arrive, .depart, .type {
   display: flex;
   flex-direction: column;
-
+  flex-wrap: wrap;
 }
 
 form label {
@@ -183,13 +185,14 @@ form label {
   margin: 0;
   padding: 0;
   color: darkslategray;
+  
 }
 
 form button {
+  width: 180px;
+margin: 5px;
+padding: 5px;
 
-margin: 0;
-padding: 0;
-width: 10%;
 
 
 }
@@ -229,7 +232,7 @@ margin: 50px 20px 0 20px;
   display: flex;
   flex-direction: row;
   flex: 1;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
