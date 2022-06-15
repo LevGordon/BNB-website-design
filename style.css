@@ -313,7 +313,7 @@ footer p {
   }
 
   .host-section img {
-    max-width: 900px;
+    min-width: 500px;
 
     margin: 10px 20px 10px 20px;
   }
