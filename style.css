@@ -31,7 +31,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
+  margin: 0 0 20px 0;
 }
 
 /* ---  Groups & Items --- */
@@ -54,7 +55,7 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 5px 20px;
   text-align: center;
 }
 
@@ -62,6 +63,12 @@ header {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 header nav ul li {
@@ -83,17 +90,29 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  margin: 20px;
+ 
 }
 
 form label {
   font-weight: bold;
+  margin: 0 10px 0 10px;
 }
 
 form select,
 form input {
+  
   margin-bottom: 20px;
   width: 180px;
+  
 }
+
+.location, .arrive, .depart, .type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 form button {
   background-color: #ff385c;
@@ -116,4 +135,186 @@ footer p {
   padding: 20px;
 }
 
+
+
+
+
+
+
 /* -------  Media Query ------- */
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 480px) {
+
+header {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header ul li {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+main form {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location, .arrive, .depart, .type {
+  display: flex;
+  flex-direction: column;
+
+}
+
+form label {
+
+  margin: 0;
+  padding: 0;
+  color: darkslategray;
+}
+
+form button {
+
+margin: 0;
+padding: 0;
+width: 10%;
+
+
+}
+
+form select,
+form input {
+
+margin: 5px 0 0 0;
+
+}
+
+main .about-section img {
+
+  max-width: 400px;
+  max-height: 225px;
+  margin: 10px 20px 10px 20px;
+
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-grow: 2;
+  flex-wrap: wrap;
+
+}
+
+.item {
+flex: 2;
+margin: 50px 20px 0 20px;
+
+
+}
+
+.item-double {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+.ideas-section {
+
+    display: flex;
+    flex-direction: row;
+
+  justify-content: center;
+
+}
+
+.ideas-section img {
+  display: flex;
+  max-width: 650px;
+  
+
+}
+
+.forest-beach-n-p {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px 0 10px;
+  
+}
+
+.cabin-pet-n-p {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px 0 10px;
+
+}
+
+.forest-n-p {
+
+  margin: 0 10px 0 10px;
+}
+
+.beach-n-p {
+  margin: 0 10px 0 10px;
+
+}
+
+.cabin-n-p {
+
+  margin: 0 10px 0 10px;
+}
+
+.pet-n-p {
+  
+  margin: 0 10px 0 10px;
+
+}
+
+
+
+
+
+
+.host-texts {
+
+  margin-top: 7%;
+}
+
+.host-section {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.host-section img {
+
+  max-width: 700px;
+  
+  margin: 10px 20px 10px 20px;
+
+}
+
+
+}
