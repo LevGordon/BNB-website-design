@@ -91,7 +91,6 @@ form {
   border: 2px solid #ff385c;
   padding: 10px;
   margin: 20px;
- 
 }
 
 form label {
@@ -101,18 +100,18 @@ form label {
 
 form select,
 form input {
-  
   margin-bottom: 20px;
   width: 180px;
-  
 }
 
-.location, .arrive, .depart, .type {
+.location,
+.arrive,
+.depart,
+.type {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 form button {
   background-color: #ff385c;
@@ -135,189 +134,190 @@ footer p {
   padding: 20px;
 }
 
-
-
-
-
-
-
 /* -------  Media Query ------- */
 
-
-
-
-
-
-
-
-
 @media all and (min-width: 480px) {
-
-header {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-header ul li {
-  margin-top: 15px;
-  font-size: 18px;
-}
-
-main form {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.location, .arrive, .depart, .type {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-form label {
-
-  margin: 0;
-  padding: 0;
-  color: darkslategray;
-  
-}
-
-form button {
-  width: 180px;
-margin: 5px;
-padding: 5px;
-
-
-
-}
-
-form select,
-form input {
-
-margin: 5px 0 0 0;
-
-}
-
-main .about-section img {
-
-  max-width: 400px;
-  max-height: 225px;
-  margin: 10px 20px 10px 20px;
-
-}
-
-.about-section {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  flex-grow: 2;
-  flex-wrap: wrap;
-
-}
-
-.item {
-flex: 2;
-margin: 50px 20px 0 20px;
-
-
-}
-
-.item-double {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-
-.ideas-section {
-
+  header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-  justify-content: center;
+  header ul li {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  /* form desktop */
 
-}
+  main form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-.ideas-section img {
-  display: flex;
-  max-width: 650px;
+  .location,
+  .arrive,
+  .depart,
+  .type {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  form label {
+    margin: 0;
+    padding: 0;
+    color: darkslategray;
+  }
+
+  form button {
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  form select,
+  form input {
+    margin: 5px 0 0 0;
+  }
+
+/* about desktop */
+
+  main .about-section img {
+    max-width: 400px;
+    max-height: 225px;
+    margin: 10px 20px 10px 20px;
+  }
+
+  .about-p1,
+  .about-p2 {
+    margin: 0 20px 0 20px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-grow: 2;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    flex: 2;
+    margin: 40px 20px 0 20px;
+  }
+
+  .item-double {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* ideas desktop */
+
+  .ideas-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ideas-section img {
+    display: flex;
+    max-width: 650px;
+  }
+
+  .forest-beach-n-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
+  }
+
+  .cabin-pet-n-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
+  }
+
+  .forest-n-p {
+    margin: 0 10px 0 10px;
+  }
+
+  .beach-n-p {
+    margin: 0 10px 0 10px;
+  }
+
+  .cabin-n-p {
+    margin: 0 10px 0 10px;
+  }
+
+  .pet-n-p {
+    margin: 0 10px 0 10px;
+  }
+
+  /* host desktop */
+
+  .host-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+  }
+
+  .host-title-text-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    flex: 1;
+  }
+
+  .host-title {
+    margin: 0;
+  }
+
+  .host-text-list {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .host-text {
+   margin: 0;
+
+  }
+
+  .host-list {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .list-items {
+    display: flex;
+    flex-direction: column;
+
+  }
+ 
+
+  .host-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  .host-section img {
+    max-width: 900px;
+
+    margin: 10px 20px 10px 20px;
+  }
+
   
-
-}
-
-.forest-beach-n-p {
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0 10px 0 10px;
-  
-}
-
-.cabin-pet-n-p {
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0 10px 0 10px;
-
-}
-
-.forest-n-p {
-
-  margin: 0 10px 0 10px;
-}
-
-.beach-n-p {
-  margin: 0 10px 0 10px;
-
-}
-
-.cabin-n-p {
-
-  margin: 0 10px 0 10px;
-}
-
-.pet-n-p {
-  
-  margin: 0 10px 0 10px;
-
-}
-
-
-
-
-
-
-.host-texts {
-
-  margin-top: 7%;
-}
-
-.host-section {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-
-}
-
-.host-section img {
-
-  max-width: 700px;
-  
-  margin: 10px 20px 10px 20px;
-
-}
-
 
 }

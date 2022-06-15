@@ -16,7 +16,7 @@ The UX designer provided you with the following user interface mockups:
 
 ![](images/Thinkfulbnb-desktop.png)
 
-### Existing files
+### Existing files 
 
 | File         | Description                                                             |
 | ------------ | ----------------------------------------------------------------------- |
